@@ -81,6 +81,8 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 
 				</div>
 				<div className="card-body p-9">
+
+
 					<div className="row mb-7">
 						<label className="col-lg-4 fw-semibold text-muted">
 						{intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.NAME_SURNAME'})}
@@ -92,7 +94,7 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 
 
 
-					<div className="row mb-7">
+					{/* <div className="row mb-7">
 						<label className="col-lg-4 fw-semibold text-muted">
 						{intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.ACCOUNT_TYPE'})}
 							</label>
@@ -101,7 +103,7 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 							{intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.ACCOUNT_TYPE_NAME_PERSONILIZE'})}
 								</span>
 						</div>
-					</div>
+					</div> */}
 
 
 
@@ -131,6 +133,7 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 
 						</div>
 					</div>
+
 					<div className="row mb-7">
 						<label className="col-lg-4 fw-semibold text-muted">
 						{intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.COUNTRY'})}
@@ -164,7 +167,7 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 						<ToastContainer />
 					</div> */}
 
-					<div>
+					{/* <div>
 						<p className="fs-6 fw-semibold text-gray-600 py-4 m-0">
 						{intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.REFERENS'})}
 							</p>
@@ -175,7 +178,10 @@ const FeedsWidget2: React.FC<Props> = ({ className, onValueChange }) => {
 								{isCopied ? intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.COPIED'}) : intl.formatMessage({id: 'EXPERT.PROFIL_INFO.CONTENT.COPY'})}
 							</button>
 						</div>
-					</div>
+					</div> */}
+
+
+
 				</div>
 			</div>
 		</div>
